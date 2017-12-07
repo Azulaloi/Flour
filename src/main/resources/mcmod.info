@@ -1,0 +1,9 @@
+[{
+  "modid": "flour",
+  "name": "Flour",
+  "description": "Simple wheat to flour.",
+  "version": "1.0.0",
+  "url": "https://github.com/Azulaloi/Flour",
+  "authorList": ["Azulaloi"],
+  "logoFile": "assets/flour/textures/items/flour.png"
+}]
