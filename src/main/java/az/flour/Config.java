@@ -7,8 +7,6 @@ import org.apache.logging.log4j.Level;
 public class Config {
     public static float flourXP = 0;
 
-    public static boolean verboseLogging = false;
-
     public static void initConfig() {
         Configuration config = CommonProxy.config;
         try{
@@ -25,8 +23,6 @@ public class Config {
 
     public static void readConfig(Configuration config) {
         flourXP = config.getFloat("Flour Baking XP", "Config", flourXP, 0.0F, 1.0F, "How much XP pops out of the furnace when baking flour.");
-
-        verboseLogging = config.getBoolean("Verbose Logging", "Debug", verboseLogging, "Set to true for more log info.");
     }
 
 }

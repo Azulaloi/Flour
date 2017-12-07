@@ -19,10 +19,6 @@ public class Flour {
     @SidedProxy(clientSide = "az.flour.proxy.ClientProxy", serverSide = "az.flour.proxy.CommonProxy")
     public static CommonProxy proxy;
 
-
-    @Mod.Instance
-    public static Flour instance;
-
     public static final Logger logger = LogManager.getLogger(MODID);
 
     @Mod.EventHandler
